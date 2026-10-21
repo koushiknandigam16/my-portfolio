@@ -353,50 +353,51 @@ footer {
     font-size: 0.85rem;
 }
 
-/* Clean Project Link Buttons Fix */
+/* Project Link Button Overrides */
 .project-links {
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
-    flex-wrap: wrap;
-    margin-top: 1.2rem;
+    display: flex !important;
+    align-items: center !important;
+    gap: 0.8rem !important;
+    flex-wrap: wrap !important;
+    margin-top: 1.2rem !important;
 }
 
 .project-btn {
-    background: var(--vanilla-primary);
-    color: var(--bg-dark);
-    padding: 0.45rem 1rem;
-    border-radius: 8px;
-    font-size: 0.85rem;
-    font-weight: 600;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    transition: transform 0.2s, box-shadow 0.2s;
+    background: #f3e5ab !important;
+    color: #0a0e17 !important;
+    padding: 0.5rem 1rem !important;
+    border-radius: 8px !important;
+    font-size: 0.85rem !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+    border: none !important;
+    transition: all 0.2s ease !important;
 }
 
 .project-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 0 12px rgba(243, 229, 171, 0.4);
+    transform: translateY(-2px) !important;
+    box-shadow: 0 0 12px rgba(243, 229, 171, 0.4) !important;
 }
 
 .project-btn-outline {
-    background: transparent;
-    color: var(--vanilla-primary);
-    border: 1px solid var(--vanilla-primary);
-    padding: 0.45rem 1rem;
-    border-radius: 8px;
-    font-size: 0.85rem;
-    font-weight: 600;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    transition: background 0.2s, color 0.2s;
+    background: transparent !important;
+    color: #f3e5ab !important;
+    border: 1px solid #f3e5ab !important;
+    padding: 0.5rem 1rem !important;
+    border-radius: 8px !important;
+    font-size: 0.85rem !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 0.5rem !important;
+    transition: all 0.2s ease !important;
 }
 
 .project-btn-outline:hover {
-    background: var(--vanilla-primary);
-    color: var(--bg-dark);
+    background: #f3e5ab !important;
+    color: #0a0e17 !important;
 }
